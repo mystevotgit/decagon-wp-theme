@@ -13,18 +13,18 @@
                 <div class="nav">
                     <span class="decagon">Decag<img class="decagon-logo" src="<?php echo get_theme_file_uri( "images/decagonlogo.svg" )?>" alt="Decagon-logo">n</span>
                     <div class="nav-links">
-                        <a href="#">For Developers</a>
-                        <a href="#">Blog</a>
-                        <a class="button" href="#">Get started</a>
+                        <a href="<?php echo site_url('#') ?>">For Developers</a>
+                        <a href="<?php echo site_url('#') ?>">Blog</a>
+                        <a class="button" href="<?php echo site_url('#') ?>">Get started</a>
                     </div>
                     <button class="hamburger">&#9776;</button>
                     <button class="cross">&#735;</button>
                 </div>
                 <div class="menu">
                     <ul>
-                        <a href="#"><li>For Developers</li></a>
-                        <a href="#"><li>Blog</li></a>
-                        <a href="#"><li>Get started</li></a>
+                    <a href="<?php echo site_url('#') ?>">For Developers</a>
+                    <a href="<?php echo site_url('#') ?>">Blog</a>
+                    <a href="<?php echo site_url('#') ?>">Get started</a>
                     </ul>
                 </div> 
             </div>
